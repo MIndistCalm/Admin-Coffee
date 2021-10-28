@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin Coffee", "Admin Coffee.csproj", "{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		w|Any CPU = w|Any CPU
+		w|x64 = w|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.Debug|Any CPU.Build.0 = Debug|x64
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.Debug|x64.ActiveCfg = Debug|x64
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.Debug|x64.Build.0 = Debug|x64
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.Release|x64.ActiveCfg = Release|x64
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.Release|x64.Build.0 = Release|x64
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.w|Any CPU.ActiveCfg = w|Any CPU
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.w|Any CPU.Build.0 = w|Any CPU
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.w|x64.ActiveCfg = w|x64
+		{68DE996B-1D5E-476C-BC78-C2849B7B5DD5}.w|x64.Build.0 = w|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DAF038D-C512-4AC3-9839-873FD0E9FAA5}
+	EndGlobalSection
+EndGlobal

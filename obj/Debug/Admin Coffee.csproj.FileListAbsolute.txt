@@ -1,0 +1,21 @@
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\bin\Debug\Admin Coffee.exe.config
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\bin\Debug\Admin Coffee.exe
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\bin\Debug\Admin Coffee.pdb
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin Coffee.csproj.AssemblyReference.cache
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\AdminLoginPage.g.cs
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\GuidePage.g.cs
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\MainWindow.g.cs
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\MainPage.g.cs
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\App.g.cs
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin Coffee_MarkupCompile.cache
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin Coffee_MarkupCompile.lref
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\AdminLoginPage.baml
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\GuidePage.baml
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\MainWindow.baml
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\MainPage.baml
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin Coffee.g.resources
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin_Coffee.Properties.Resources.resources
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin Coffee.csproj.GenerateResource.cache
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin Coffee.csproj.CoreCompileInputs.cache
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin Coffee.exe
+C:\Users\suxin\OneDrive\Рабочий стол\Admin Coffee\obj\Debug\Admin Coffee.pdb

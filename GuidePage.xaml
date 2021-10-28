@@ -1,0 +1,53 @@
+﻿<Page x:Class="Admin_Coffee.GuidePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Admin_Coffee"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="GuidePage">
+    <Grid Background="#1E1E1E">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <DataGrid x:Name="dataGrid_guides" HorizontalAlignment="Stretch" Margin="10" Height="400" AutoGenerateColumns="False" CanUserAddRows="False"  FontSize="12" FontFamily="Century Gothic" SelectionChanged="dataGrid_guides_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Код" Width="1*" Binding="{Binding Path=code}" IsReadOnly="True" />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title}" IsReadOnly="False"  />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title2}" IsReadOnly="False"  />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title3}" IsReadOnly="False"  />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title4}" IsReadOnly="False"  />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title5}" IsReadOnly="False"  />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title6}" IsReadOnly="False"  />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title7}" IsReadOnly="False"  />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title8}" IsReadOnly="False"  />
+                    <DataGridTextColumn Header="" Width="1*" Binding="{Binding Path=title9}" IsReadOnly="False"  />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1">
+            <Button x:Name="addBtn" Content="Добавить запись" HorizontalAlignment="Center" Margin="54,15,54,0" VerticalAlignment="Top" Height="27" Width="132" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White" Click="addBtn_Click"/>
+            <Button x:Name="saveBtn" Content="Сохранить" HorizontalAlignment="Center" Margin="54,15,54,0" VerticalAlignment="Top" Height="24" Width="132" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White" Click="saveBtn_Click"/>
+
+            <Button x:Name="deleteBtn" Content="Удалить" HorizontalAlignment="Center" Margin="54,15,54,20" VerticalAlignment="Top" Width="132" Height="23" Click="deleteBtn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="clientsBtn" Content="Клиенты" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="132" Height="20" Click="clientsBtn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="postBtn" Content="Должности" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="postsBtn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="smetaBtn" Content="Смета" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" RenderTransformOrigin="1.323,1.559" Click="smetaBtn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="menuBtn" Content="Меню" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="menuBtn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="salesBtn" Content="Акции и скидки" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="salesBtn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="suppliersBtn" Content="Поставщики" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="suppliersBtn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="furniture_registrBtn" Content="Реестр мебели" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="furniture_registr_Btn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="advBtn" Content="Реклама" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="adv_Btn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="staffBtn" Content="Сотрудники" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="staff_Btn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="trade_turnoverBtn" Content="Товарооборот" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="trade_turnover_Btn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="branchBtn" Content="Филиал" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Top" Width="133" Height="20" Click="branch_Btn_Click" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White"/>
+            <Button x:Name="addBtn_Copy" Content="Выгрузить в файл" HorizontalAlignment="Center" Margin="53.5,15,53.5,0" VerticalAlignment="Top" Height="35" Width="133" Background="Transparent" Foreground="White" FontSize="12" FontFamily="Century Gothic" Cursor="Hand" BorderBrush="White" Click="out_file"/>
+
+        </StackPanel>
+
+    </Grid>
+</Page>
